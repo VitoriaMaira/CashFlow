@@ -1,0 +1,25 @@
+# Pastas de build
+bin/
+obj/
+out/
+publish/
+
+# Arquivos específicos do usuário
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.dotSettings.user
+*.vs/
+*.vscode/
+.idea/
+
+# Logs e arquivos temporários
+*.log
+logs/
+*.tmp
+*.bak
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
