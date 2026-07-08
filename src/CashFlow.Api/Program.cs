@@ -23,7 +23,7 @@ namespace CashFlow.Api
             builder.Services.AddMvc(options => options.Filters.Add(typeof(ExceptionFilter)));
 
             //Dependency Injection
-            builder.Services.AddInfrastructure();
+            builder.Services.AddInfrastructure(builder.Configuration);
             builder.Services.AddApplication();
 
 
